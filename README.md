@@ -35,6 +35,32 @@ Render to MP4, WebM, or MOV in resolutions from mobile-friendly to 4K. Backgroun
 - 4:5 for Instagram portrait
 - And more
 
+## Working Directories
+
+On first launch, ShortsMaker creates its working folder at `~/Documents/ShortsMaker/` with the following structure:
+
+```
+ShortsMaker/
+├── assets/           # Your media library
+│   ├── backgrounds/  # Images and videos for scene backgrounds
+│   ├── overlays/     # Images for overlay elements
+│   ├── audio/        # Background music and sound effects
+│   └── fonts/        # Custom font files (.ttf, .otf, .woff)
+└── temp/             # Temporary files (cache, TTS, exports)
+```
+
+### Organizing Your Assets
+
+**backgrounds/** — Drop your images (PNG, JPG, WebP) and videos (MP4, WebM, MOV) here. These appear in the background picker when editing scenes.
+
+**overlays/** — Store images you want to place over your video — logos, stickers, watermarks, reaction images.
+
+**audio/** — Background music tracks. ShortsMaker supports MP3, WAV, OGG, and M4A. The app automatically ducks music volume during voiceover.
+
+**fonts/** — Custom fonts for subtitles and text overlays. After adding fonts here, restart the app to load them.
+
+You can change the working directory location in Settings → Directories.
+
 ## The Mission
 
 Professional video production tools are complex, expensive, and time-consuming. Short-form content demands speed. ShortsMaker bridges this gap — giving creators a focused tool that does one thing exceptionally well: turning ideas into scroll-stopping vertical videos.
