@@ -1,8 +1,22 @@
-# ShortsMaker
+![screenshot_4.png](assets/screenshot_4.png)
 
-**Turn text into TikTok/Reels-style videos. No editing skills required.**
+<h1 align="left">ShortsMaker</h1>
 
-Write a script, pick a voice, add backgrounds — the app handles TTS, synced subtitles, transitions, and export.
+<p align="left">
+  <strong>Turn text into TikTok/Reels-style videos. No editing skills required</strong>
+
+  Write a script, pick a voice, add backgrounds — the app handles TTS, synced subtitles, transitions, and export.
+</p>
+
+<br>
+
+<p align="left">
+  <img alt="License" src="https://img.shields.io/badge/License-EULA-blue" />
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows|Linux|Mac-lightgrey" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Development-orange" />
+</p>
+
+
 
 ## How It Works
 
