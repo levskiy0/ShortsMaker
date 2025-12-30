@@ -1,72 +1,68 @@
 # ShortsMaker
 
-**Create viral short-form videos in minutes, not hours.**
+**Turn text into TikTok/Reels-style videos. No editing skills required.**
 
-ShortsMaker is a desktop application that transforms your ideas into polished vertical videos ready for TikTok, YouTube Shorts, and Instagram Reels. No video editing experience required.
+Write a script, pick a voice, add backgrounds — the app handles TTS, synced subtitles, transitions, and export.
 
-## What It Does
+## How It Works
 
-Write a script, pick a voice, choose your visuals — ShortsMaker handles the rest. The app automatically generates:
+### 1. Write Your Script
+Type your voiceover text. Or describe your video idea and let AI generate a complete scenario with scenes, text, and overlay suggestions.
 
-- **Text-to-Speech voiceover** with natural-sounding AI voices
-- **Synced subtitles** that highlight words as they're spoken (karaoke-style, typewriter, and more)
-- **Smooth transitions** between scenes (fades, slides, zooms, glitches)
-- **Animated backgrounds** with Ken Burns effects, slow zoom, pan, and drift
-- **Text overlays** with eye-catching animations (pop-in, fire reveal, glitch)
+### 2. Pick a Voice
+Choose from Edge TTS (free, 100+ voices) or ElevenLabs (realistic AI voices). The app generates audio with word-level timing for perfect subtitle sync.
 
-## Key Features
+### 3. Add Visuals
+Select background images or videos. The app applies Ken Burns effects, slow zoom, pan, and other animations automatically.
 
-### AI-Powered Workflow
-Describe your video idea in plain text and let AI generate complete scenarios — scenes, voiceover scripts, backgrounds, and overlay suggestions. Review, tweak, and render.
+### 4. Style Your Subtitles
+Karaoke-style highlighting, typewriter effect, bounce, wave — pick a style that fits your content. Colors, fonts, and positioning are fully customizable.
 
-### Real-Time Preview
-See your video come to life as you edit. ThreeJS-powered renderer delivers smooth 60fps playback with all effects applied.
+### 5. Export
+Hit render. Get an MP4 ready for upload.
 
-### Multiple Scenarios
-Work on several versions of the same video simultaneously. A/B test different scripts, voices, or visual styles before committing.
+## Features
 
-### Export Anywhere
-Render to MP4, WebM, or MOV in resolutions from mobile-friendly to 4K. Background music with automatic ducking keeps your voiceover clear.
+- Scene transitions (fade, slide, zoom, wipe, glitch, cube, gradient)
+- Subtitle animation styles
+- Background animations (Ken Burns, drift, shake, pulse)
+- Text overlays with entrance/exit animations
+- Background music with automatic ducking
+- Multi-scenario workflow for A/B testing
+- Real-time 60fps preview
 
-### Aspect Ratios for Every Platform
-- 9:16 for TikTok, Shorts, Reels
-- 16:9 for YouTube
-- 1:1 for Instagram feed
-- 4:5 for Instagram portrait
-- And more
+## Aspect Ratios
+
+- 9:16 — TikTok, Shorts, Reels
+- 16:9 — YouTube
+- 1:1 — Instagram feed
+- 4:5 — Instagram portrait
 
 ## Working Directories
 
-On first launch, ShortsMaker creates its working folder at `~/Documents/ShortsMaker/` with the following structure:
+On first launch, ShortsMaker creates its working folder at `~/Documents/ShortsMaker/`:
 
 ```
 ShortsMaker/
-├── assets/           # Your media library
-│   ├── backgrounds/  # Images and videos for scene backgrounds
-│   ├── overlays/     # Images for overlay elements
-│   ├── audio/        # Background music and sound effects
-│   └── fonts/        # Custom font files (.ttf, .otf, .woff)
-└── temp/             # Temporary files (cache, TTS, exports)
+├── assets/
+│   ├── backgrounds/  # Images and videos for scenes
+│   ├── overlays/     # Logos, stickers, watermarks
+│   └── audio/        # Background music
+└── temp/             # Cache and temporary files
 ```
 
-### Organizing Your Assets
+You can change the location in Settings → Directories.
 
-**backgrounds/** — Drop your images (PNG, JPG, WebP) and videos (MP4, WebM, MOV) here. These appear in the background picker when editing scenes.
+## Download
 
-**overlays/** — Store images you want to place over your video — logos, stickers, watermarks, reaction images.
+**[Releases](https://github.com/levskiy0/ShortsMaker/releases/)** — macOS, Windows, Linux
 
-**audio/** — Background music tracks. ShortsMaker supports MP3, WAV, OGG, and M4A. The app automatically ducks music volume during voiceover.
-
-**fonts/** — Custom fonts for subtitles and text overlays. After adding fonts here, restart the app to load them.
-
-You can change the working directory location in Settings → Directories.
-
-## The Mission
-
-Professional video production tools are complex, expensive, and time-consuming. Short-form content demands speed. ShortsMaker bridges this gap — giving creators a focused tool that does one thing exceptionally well: turning ideas into scroll-stopping vertical videos.
-
-Whether you're a content creator, marketer, educator, or just someone with a story to tell — your next viral short is just a few clicks away.
+Free. No account. No watermarks.
 
 ---
 
-*Built with Electron, React, and a custom ThreeJS rendering engine.*
+GitHub: [github.com/levskiy0/ShortsMaker](https://github.com/levskiy0/ShortsMaker)
+
+---
+
+*Built because I needed it. Sharing because others might too.
